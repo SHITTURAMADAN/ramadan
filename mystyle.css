@@ -1,0 +1,64 @@
+
+
+.thediv{
+    
+    background-color: rgb(48, 48, 152);
+    width: 1300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+    
+
+.link2{
+    display:inline 5opx;
+    gap: 50px;
+    margin-left:-260px;
+    margin-top:- 60px;
+    margin-right: 600px;
+}
+.links{
+    display: inline;
+    gap: -6px;
+    margin-left: 950px;
+    margin-top: -20px;
+}
+a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(144, 88, 15);
+
+}
+a:hover{
+    user-select: none;
+}
+button{
+    background-color: rgba(0, 255, 255, 0.241);
+    font-size: larger;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.name{
+    font-style: italic;
+    margin-right: 1000px;
+    margin-top: 200px;
+
+}
+
+.h2{
+    color: rgba(0, 0, 0, 0.291);
+    margin-right: 500px;
+}
+.code{
+    size: 100px;
+}
