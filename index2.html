@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing My Work and Skills</p>
+    </header>
+
+    <section id="about">
+        <span class="colour-change">
+        <h2>About Me</h2>
+        <p> Software developers create software to meet user needs by employing diagrams and models,
+            writing code, and ensuring overall functionality. These professionals design, build,
+             and implement computer programs and applications. Applications software developers
+              focus on applications used on mobile devices and computer desktops.
+               Systems software developers create and oversee software used in network
+                distribution, along with database, game, and web development. Software developers 
+                typically have bachelor's degrees in software development, computer science, or other related fields.
+                 Developing experience, earning certifications, and completing training programs like bootcamps
+                  allows individuals to pursue employment in the field. Software transcends industries, allowing
+                   software developers to design and buid programs for companies and organizations in the private
+                    and public sectors. Discover the skills, duties, and opportunities associated with developing
+                     software in this guide.</p>
+                    </span>
+                    <style>
+                        .colour-change {
+                         animation: colour-change  5s infinite;
+                        }
+                        @keyframes colour-change {
+                            0% {color: aqua;}
+                            50% {color: blue;}
+                            100%{color: black;}
+                                }
+                             </style>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
